@@ -4,6 +4,7 @@ import 'dart:math';
 void main() {
   return runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.red,
         appBar: AppBar(
@@ -43,7 +44,7 @@ class _DicePageState extends State<DicePage> {
                 shadowColor: Colors.transparent,
                 elevation: 0.0,
               ),
-              //anonymus function
+              //anonymous function
               onPressed:(){
               setState(() {
                 changeDiceNumbers();
@@ -56,7 +57,7 @@ class _DicePageState extends State<DicePage> {
                 shadowColor: Colors.transparent,
                 elevation: 0.0,
               ),
-              //anonymus function
+              //anonymous function
               onPressed:(){
                 setState(() {
                   changeDiceNumbers();
